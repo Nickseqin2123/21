@@ -22,10 +22,7 @@ def play(player_ochk, diller_ochk):
             break
 
         elif player_ochk > 21:
-            print("------------------------------------")
-            print("Выиграл диллер")
-            print("------------------------------------")
-            win_diller(diller_ochk, player_ochk)
+            kordinator(player_ochk, diller_ochk)
 
         else:
             print(f"Ваши очки : {player_ochk}")
